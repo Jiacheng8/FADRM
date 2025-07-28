@@ -266,7 +266,12 @@ If you find this repository helpful for your research or project, please conside
 
 > 🔖 **Citation (BibTeX):**
 ```bibtex
-
+@article{cui2025fadrm,
+  title={FADRM: Fast and Accurate Data Residual Matching for Dataset Distillation},
+  author={Cui, Jiacheng and Bi, Xinyue and Luo, Yaxin and Zhao, Xiaohan and Liu, Jiacheng and Shen, Zhiqiang},
+  journal={arXiv preprint arXiv:2506.24125},
+  year={2025}
+}
 ```
 
 📌 *Your citation helps support and acknowledge our research contributions to the dataset distillation community.*
