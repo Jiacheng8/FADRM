@@ -17,7 +17,7 @@
 
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)]()
-[![Arxiv](https://img.shields.io/badge/📃-Arxiv-red)]()
+[![Arxiv](https://img.shields.io/badge/📃-Arxiv-red)](https://arxiv.org/abs/2506.24125)
 [![Open In Spaces](https://img.shields.io/badge/GoogleDrive-Dataset-blue?logo=google-drive&logoColor=white)](https://drive.google.com/drive/folders/1f2liYdUyxswBEFCrrDezDEvX1-5i7vqe?usp=drive_link)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)]()
 [![GitHub Repo stars](https://img.shields.io/github/stars/Jiacheng8/FADRM)]()
