@@ -139,7 +139,7 @@ conda activate FADRM
 ### 📁 Step 3: Download Required Files
 Some files must be downloaded manually from Google Drive. After downloading, update the corresponding paths in the `config.sh` file.
 
-- 🔗 [Download Initialized Patches](https://drive.google.com/file/d/1GiK9lDu0b7TwXcgzdLl80YELXPKnz6RM/view?usp=drive_link)
+- 🔗 [Download Initialized Patches](https://drive.google.com/file/d/1lKGQf-w9b79r1g0AE_sxl7yXDSNgcZMW/view?usp=drive_link)
 - 🔗 [Download Pretrained Models](https://drive.google.com/file/d/1a7YjjX8Y8V_X0xD5Rb2OlXUYIMQSRhDt/view?usp=drive_link)
 - 🔗 [Download Validation Images](https://drive.google.com/drive/folders/1BCWWdvo1MnwtTUIEK-t3QcS0KwwAMVqH?usp=drive_link)
 
