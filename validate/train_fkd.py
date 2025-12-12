@@ -562,6 +562,6 @@ def save_checkpoint(state, is_best, output_dir=None,epoch=None):
 
 
 if __name__ == "__main__":
-    import multiprocessing as mp
-    mp.set_start_method('spawn')
+    # import multiprocessing as mp
+    # mp.set_start_method('spawn')
     main()

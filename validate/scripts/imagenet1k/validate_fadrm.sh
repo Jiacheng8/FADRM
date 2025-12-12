@@ -28,7 +28,7 @@ python $PARENT_DIR/train_fkd.py \
     --batch-size $bs \
     --epochs 300 \
     --dataset-name $Dataset_Name \
-    --gradient-accumulation-steps 2 \
+    --gradient-accumulation-steps 1 \
     --mix-type 'cutmix' \
     --cos \
     -j 10 \

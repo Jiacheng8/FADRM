@@ -308,18 +308,11 @@ def save(train_loader, model_lis, dir_path, args):
     """Generate soft labels and save"""
     for batch_idx, (images, target, flip_status, coords_status) in enumerate(train_loader):
         images = images.cuda()
-        split_point = int(images.shape[0] // 2)
-        origin_images = images
         images, mix_index, mix_lam, mix_bbox = mix_aug(images, args)
         
         total_output = []
         for idx, _model in enumerate(model_lis):
-            cat_output = []
-            output = _model(origin_images[:split_point])
-            cat_output.append(output)
-            output = _model(origin_images[split_point:])
-            cat_output.append(output)
-            output = torch.cat(cat_output, 0) * weights[idx]
+            output = _model(images) * weights[idx]
             total_output.append(output)
             
         output = torch.stack(total_output, 0)
